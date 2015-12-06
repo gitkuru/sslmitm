@@ -5,17 +5,13 @@ InterfaceIndex=3
 # Target IP & MAC Address
 #-------------------------------------------------
 TargetIP=192.168.1.105
-TargetMAC=94-DB-C9-99-4B-4D
-
-#iPad
-#TargetIP=192.168.1.106
-#TargetMAC=A4-D1-D2-A9-ED-7D
+TargetMAC=00-01-02-AB-CD-EF
 
 
 # Gateway IP & MAC Address
 #-------------------------------------------------
 GatewayIP=192.168.1.1
-GatewayMAC=00-0A-79-E8-0D-A4
+TargetMAC=10-20-30-AB-CD-EF
 
 
 # Server Host Name (currently not use)
