@@ -1,0 +1,49 @@
+# Device Interface Index (WinPcapDevice Index)
+#-------------------------------------------------
+InterfaceIndex=3
+
+# Target IP & MAC Address
+#-------------------------------------------------
+TargetIP=192.168.1.105
+TargetMAC=94-DB-C9-99-4B-4D
+
+#iPad
+#TargetIP=192.168.1.106
+#TargetMAC=A4-D1-D2-A9-ED-7D
+
+
+# Gateway IP & MAC Address
+#-------------------------------------------------
+GatewayIP=192.168.1.1
+GatewayMAC=00-0A-79-E8-0D-A4
+
+
+# Server Host Name (currently not use)
+#-------------------------------------------------
+ServerHostName=ssltest23.bbtest.net
+
+
+# Minimum buffering size for transmit to target
+#-------------------------------------------------
+MinimumSizeToTarget=10
+
+
+# Minimum buffering size for transmit to server
+#-------------------------------------------------
+MinimumSizeToOriginalServer=10
+
+
+# ssl stream read buffer (default:4096)
+#-------------------------------------------------
+ReadBufferSize=4096
+
+
+# Inspection port (default:443)
+#-------------------------------------------------
+InspectTargetSslPort=443
+
+
+# Certificate using MITM
+#-------------------------------------------------
+CertificateFileName=server.pfx
+CertificateFilePassword=test
