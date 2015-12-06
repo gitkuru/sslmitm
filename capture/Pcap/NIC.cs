@@ -264,7 +264,7 @@ namespace capture
             }
             catch(Exception err)
             {
-                Log.Error("onPacketArrival() " + err.Message);
+                //Log.Error("onPacketArrival() " + err.Message);
             }
         }
     }
